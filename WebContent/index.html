@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+<meta charset="UTF-8">
+<title>Angular Js</title>
+</head>
+<body ng-controller="homeController">
+	<a href="#/">Home</a> |
+	<a href="#/userslist">userslist</a>
+	
+	<div ng-view></div>
+
+	<script type="text/javascript" src="scripts/js/angular.min.js"></script>
+	<script type="text/javascript" src="scripts/js/angular-route.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript"
+		src="scripts/controller/homeController.js"></script>
+	<script type="text/javascript"
+		src="scripts/controller/userslistController.js"></script>
+	<script type="text/javascript" src="scripts/services/usersService.js"></script>
+
+</body>
+</html>
